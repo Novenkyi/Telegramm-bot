@@ -344,7 +344,7 @@ for index, row in AW8.iterrows():
     outputSEG2 += f"Price: {row[f1]}\n"
     outputSEG2 += f"\n"
 """""""""""""""""""""""""""Основа"""""""""""""""""""""""""""
-TOKEN = "6921576474:AAEZCpMnImbRlkDvZ4agu6GYMwclcRdtLfc"
+TOKEN = ""
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
